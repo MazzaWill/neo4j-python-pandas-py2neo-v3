@@ -1,7 +1,6 @@
 # neo4j-python-pandas-py2neo-v3
 利用pandas将excel中数据抽取，以三元组形式加载到neo4j数据库中构建相关知识图谱
 # Neo4j知识图谱构建
-------
 ![](https://s1.ax1x.com/2018/11/13/iObQkn.png)
 
 ### 1.运行环境：  
