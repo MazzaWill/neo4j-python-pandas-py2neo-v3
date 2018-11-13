@@ -22,6 +22,6 @@ Excel数据结构如下
 
 ### 3.建立知识图谱所需节点和边数据
 
-![](https://s1.ax1x.com/2018/11/13/iXk6iV.png){:width="100px" height="100px"}
+![](https://s1.ax1x.com/2018/11/13/iXk6iV.png=200x300)
 
 ### Enjoy it!
