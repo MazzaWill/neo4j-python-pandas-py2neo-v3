@@ -5,7 +5,7 @@
 ![](https://s1.ax1x.com/2018/11/13/iObQkn.png)
 
 ### 1.运行环境：  
-python3.6.5
+python3.6.5  
 windows10  
 具体包依赖可以参考文件requirements.txt
 ```
