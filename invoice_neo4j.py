@@ -72,4 +72,4 @@ relation_extraction()
 create_data = DataToNeo4j()
 
 create_data.create_node(data_extraction()[0], data_extraction()[1])
-create_data.crerte_relation(relation_extraction())
+create_data.create_relation(relation_extraction())
