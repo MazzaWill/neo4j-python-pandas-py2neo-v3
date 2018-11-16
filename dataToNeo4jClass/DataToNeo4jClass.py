@@ -23,7 +23,7 @@ class DataToNeo4j(object):
             value_node = Node(self.invoice_value, name=name)
             self.graph.create(value_node)
 
-    def crerte_relation(self, df_data):
+    def create_relation(self, df_data):
         """建立联系"""
 
         m = 0
