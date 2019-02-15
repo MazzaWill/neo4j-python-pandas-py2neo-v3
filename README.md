@@ -25,7 +25,7 @@ invoice_neo4j.py
 DataToNeo4jClass.py  
 <img src="https://s1.ax1x.com/2018/11/13/iXk6iV.png" width="500" hegiht="313" align=center />
 
---
+-
 ## 2019.2.15更新
 ### 更新neo4j_matrix.py代码，将知识图谱中数据抽取转化成矩阵，为机器学习模型提供数据
 
