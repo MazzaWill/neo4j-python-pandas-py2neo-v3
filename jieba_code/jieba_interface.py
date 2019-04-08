@@ -3,9 +3,9 @@ import pymysql
 
 # 连接数据库
 conn = pymysql.connect(
-    host="115.29.107.28",
-    user="root",
-    passwd="root@123",
+    host="115.xx.107.xx",
+    user="rootxxx",
+    passwd="rootxx",
     db="shenji",
     charset='utf8')
 
