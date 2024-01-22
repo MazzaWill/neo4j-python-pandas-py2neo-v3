@@ -33,7 +33,7 @@ pyzmq==17.1.2
 six==1.11.0
 tornado==5.1.1
 traitlets==4.3.2
-urllib3==1.24
+urllib3==1.26.5
 wcwidth==0.1.7
 wincertstore==0.2
 xlrd==1.1.0
