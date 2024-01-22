@@ -6,7 +6,7 @@ Click==7.0
 colorama==0.4.0
 decorator==4.3.0
 ipykernel==5.1.0
-ipython==7.1.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.1
 jieba==0.39
