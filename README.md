@@ -1,14 +1,14 @@
-neo4j-python-pandas-py2neo-v3
+# neo4j-python-pandas-py2neo-v3
 Utilize pandas to extract data from Excel and load it into the Neo4j database in triplet form to construct a relevant knowledge graph.
 ![](https://s1.ax1x.com/2018/11/13/iObQkn.png)
-Neo4j Knowledge Graph Construction
-1. Running Environment:
+## Neo4j Knowledge Graph Construction
+### 1. Running Environment:
 python3.6.5
 windows10
 For specific package dependencies, refer to the requirements.txt file.
 
 pip install -r requirements.txt
-2. Pandas Extraction of Excel Data
+### 2. Pandas Extraction of Excel Data
 The Excel data structure is as follows:
 
 <img src="https://s1.ax1x.com/2018/11/13/iObTc8.png" width="800" hegiht="500" align=center />
@@ -18,7 +18,7 @@ Data extraction primarily uses pandas to convert Excel data into a DataFrame typ
 invoice_neo4j.py
 <img src="https://s1.ax1x.com/2018/11/13/iOb4ht.png" width="500" hegiht="313" align=center />
 
-3. Establishing Node and Edge Data for the Knowledge Graph
+### 3. Establishing Node and Edge Data for the Knowledge Graph
 DataToNeo4jClass.py
 <img src="https://s1.ax1x.com/2018/11/13/iXk6iV.png" width="500" hegiht="313" align=center />
 
