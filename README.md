@@ -24,6 +24,13 @@ DataToNeo4jClass.py
 
 Update neo4j_matrix.py code to extract and convert knowledge graph data into a matrix, providing data for machine learning models.
 
+### Related Projects
+
+- [HappyHorseAI](https://happyhorseai.video/) — AI tool for creating horse-themed videos and short-form visual content.
+- [HappyHorse20](https://www.happyhorse20.com/) — AI video generator focused on horse-related creative content.
+- [Seedance AI](https://seedance2ai.video/) — AI video generation tool for text-to-video and image-to-video creation.
+
+
 # neo4j-python-pandas-py2neo-v3
 利用pandas将excel中数据抽取，以三元组形式加载到neo4j数据库中构建相关知识图谱
 # Neo4j知识图谱构建
