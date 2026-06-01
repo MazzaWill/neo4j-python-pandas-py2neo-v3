@@ -30,9 +30,13 @@ jobs:
             examples/modern_invoice_graphrag/cypher.py \
             examples/modern_invoice_graphrag/embeddings.py \
             examples/modern_invoice_graphrag/model.py \
+            skills/neo4j-knowledge-graph/scripts/profile_table.py \
             dataToNeo4jClass/DataToNeo4jClass.py \
             jieba_code/jieba_doubt.py \
             jieba_code/jieba_interface.py
 
       - name: Run modern example unit tests
         run: python -m unittest discover -s tests/modern_invoice_graphrag -v
+
+      - name: Run skill utility tests
+        run: python -m unittest discover -s tests/skill_neo4j_knowledge_graph -v

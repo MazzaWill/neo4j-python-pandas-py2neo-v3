@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.4.0 - Neo4j Knowledge Graph Skill
+
+Release date: 2026-06-01
+
+### Added
+
+- Added `skills/neo4j-knowledge-graph/`, an open-source Codex/agent skill for Neo4j knowledge graph modeling, Cypher generation, legacy py2neo modernization, and GraphRAG/vector-search workflows.
+- Added skill references for spreadsheet-to-graph modeling and safe Cypher/vector-index patterns.
+- Added `profile_table.py`, a reusable CSV/Excel profiling script for inspecting source data before graph modeling.
+- Added tests for the skill profiling script.
+
+### Changed
+
+- Linked the open-source skill from the English and Chinese root README files.
+- Extended maintenance checks to compile and test the skill utility script.
+
 ## v0.3.1 - Project Positioning Polish
 
 Release date: 2026-06-01

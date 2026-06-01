@@ -1,0 +1,6 @@
+interface:
+  display_name: "Neo4j Knowledge Graph"
+  short_description: "Model Neo4j graphs from CSV, Excel, and GraphRAG."
+  default_prompt: "Use $neo4j-knowledge-graph to design a Neo4j knowledge graph from my spreadsheet and produce safe Cypher plus verification steps."
+policy:
+  allow_implicit_invocation: true

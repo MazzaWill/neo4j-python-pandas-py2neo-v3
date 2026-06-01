@@ -46,6 +46,12 @@ python -m examples.modern_invoice_graphrag.app \
   dry-run
 ```
 
+## 开源 Skill
+
+仓库也新增了一个面向 Codex/AI agent 的开源 skill：[`skills/neo4j-knowledge-graph/`](skills/neo4j-knowledge-graph/)。
+
+当 AI coding agent 需要基于 CSV/Excel 设计 Neo4j 知识图谱、生成安全 Cypher、选择 legacy py2neo 或官方 Neo4j driver、或者加入 GraphRAG/vector-search 能力时，可以使用这个 skill。skill 内置了 `profile_table.py`，用于在建模前先分析表格字段。
+
 ## 兼容性
 
 原始可运行环境：

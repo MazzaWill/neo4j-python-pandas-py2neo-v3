@@ -46,6 +46,12 @@ python -m examples.modern_invoice_graphrag.app \
   dry-run
 ```
 
+## Open Source Skill
+
+The repository also includes an open-source Codex/agent skill at [`skills/neo4j-knowledge-graph/`](skills/neo4j-knowledge-graph/).
+
+Use it when an AI coding agent needs to design a Neo4j knowledge graph from CSV/Excel data, generate safe Cypher, choose between legacy py2neo and the official Neo4j driver, or add GraphRAG/vector-search behavior. The skill includes a reusable `profile_table.py` script for inspecting tabular data before graph modeling.
+
 ## Compatibility
 
 The original working environment was:
