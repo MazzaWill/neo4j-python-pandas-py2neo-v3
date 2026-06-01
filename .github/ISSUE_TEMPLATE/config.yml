@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: README
+    url: https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3#readme
+    about: Read setup, compatibility, and roadmap notes first.
+  - name: Maintenance roadmap
+    url: https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3/issues/23
+    about: Track dependency and security modernization work.

@@ -1,5 +1,9 @@
 # neo4j-python-pandas-py2neo-v3
 
+[![Release](https://img.shields.io/github/v/release/MazzaWill/neo4j-python-pandas-py2neo-v3)](https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen.svg)](https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3/issues/23)
+
 利用 pandas 从 Excel 中抽取节点与关系数据，并通过 py2neo v3 写入 Neo4j，用三元组方式构建基础知识图谱。
 
 Utilize pandas to extract nodes and relationships from Excel, then load the triples into Neo4j with py2neo v3 to build a basic knowledge graph.
@@ -52,6 +56,7 @@ Before running `invoice_neo4j.py`, update the local path and Neo4j connection se
 - `neo4j_matrix.py`: extracts Neo4j relationship data and converts it into matrix form.
 - `Invoice_data_Demo.xls`: demo Excel data for local testing and learning.
 - `requirements.txt`: legacy dependency pins for the original py2neo v3 environment.
+- `.github/ISSUE_TEMPLATE/`: issue templates for bugs, compatibility questions, and sample-data requests.
 
 ## Neo4j Knowledge Graph Construction
 
@@ -114,6 +119,17 @@ New and historical issues are being reviewed in batches. When opening an issue, 
 
 For sample data questions, use the included `Invoice_data_Demo.xls` file first.
 
+## Project Governance
+
+- License: [MIT](LICENSE)
+- Contributing guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Security policy: [SECURITY.md](SECURITY.md)
+- Support policy: [SUPPORT.md](SUPPORT.md)
+- Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Pull request template: [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md)
+
+Repository maintenance is tracked publicly through issues and releases. Dependency and security modernization work is tracked in issue #23.
+
 ---
 
 # 中文说明
@@ -152,3 +168,11 @@ Excel 数据结构如下：
 ### 4. 矩阵转换
 
 `neo4j_matrix.py` 将知识图谱中的数据抽取并转化成矩阵，为机器学习模型提供数据。
+
+## 项目维护
+
+- License: [MIT](LICENSE)
+- 贡献指南: [CONTRIBUTING.md](CONTRIBUTING.md)
+- 安全策略: [SECURITY.md](SECURITY.md)
+- 支持说明: [SUPPORT.md](SUPPORT.md)
+- 行为准则: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)

@@ -1,8 +1,21 @@
 # Changelog
 
+## v0.2.1 - OSS Maintenance Metadata
+
+Release date: 2026-06-01
+
+### Added
+
+- Added MIT license.
+- Added contributing guide, security policy, support policy, and code of conduct.
+- Added issue templates for bug reports, compatibility questions, and sample-data requests.
+- Added pull request template and CODEOWNERS.
+- Added lightweight GitHub Actions maintenance check for Python syntax.
+- Linked project governance files from the README.
+
 ## v0.2.0 - Maintenance Restart
 
-Planned release date: 2026-06-01
+Release date: 2026-06-01
 
 This release marks the restart of active maintenance for the project.
 

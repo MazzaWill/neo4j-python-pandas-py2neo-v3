@@ -1,0 +1,25 @@
+name: Sample data question
+description: Ask about the included demo Excel data.
+title: "[Sample data]: "
+labels: ["question", "sample-data", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The repository includes `Invoice_data_Demo.xls`. Please try that file before opening a sample-data issue.
+  - type: dropdown
+    id: used-demo
+    attributes:
+      label: Did you try Invoice_data_Demo.xls?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Explain what sample data problem you are trying to solve.
+    validations:
+      required: true

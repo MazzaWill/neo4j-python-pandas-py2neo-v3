@@ -1,0 +1,40 @@
+name: Compatibility question
+description: Ask about Python, Neo4j, pandas, or py2neo compatibility.
+title: "[Compatibility]: "
+labels: ["question", "compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The known baseline is Python 3.6.5, Windows 10, Neo4j 3.x, and py2neo 3.
+  - type: input
+    id: python-version
+    attributes:
+      label: Python version
+    validations:
+      required: true
+  - type: input
+    id: neo4j-version
+    attributes:
+      label: Neo4j version
+    validations:
+      required: true
+  - type: input
+    id: py2neo-version
+    attributes:
+      label: py2neo version
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe what you want to run and where compatibility is unclear.
+    validations:
+      required: true

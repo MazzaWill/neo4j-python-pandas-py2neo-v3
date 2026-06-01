@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a reproducible problem in the example project.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include enough environment information to reproduce the problem.
+  - type: input
+    id: python-version
+    attributes:
+      label: Python version
+      placeholder: "Example: 3.6.5"
+    validations:
+      required: true
+  - type: input
+    id: neo4j-version
+    attributes:
+      label: Neo4j version
+      placeholder: "Example: 3.5.x"
+    validations:
+      required: true
+  - type: input
+    id: py2neo-version
+    attributes:
+      label: py2neo version
+      placeholder: "Example: 3.1.2"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Example: Windows 10"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include commands, file paths, and whether you used Invoice_data_Demo.xls.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error output
+      description: Paste the full traceback or screenshot.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
