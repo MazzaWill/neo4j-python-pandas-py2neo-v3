@@ -23,6 +23,27 @@ This repository is intentionally maintained as a legacy educational example. Mod
 - Creates Neo4j nodes and relationships through py2neo v3.
 - Converts Neo4j graph data into matrices for downstream machine learning experiments.
 
+## Modern Neo4j Example
+
+The repository now includes a modern, additive example at [`examples/modern_invoice_graphrag/`](examples/modern_invoice_graphrag/).
+
+It keeps the original invoice dataset concept but uses the current Neo4j application stack:
+
+- official `neo4j` Python driver
+- Neo4j 5+/2026 vector indexes
+- GraphRAG-style semantic retrieval
+- optional `neo4j-graphrag` production embeddings
+- local deterministic embeddings for keyless demos and CI
+
+Start with:
+
+```bash
+python -m examples.modern_invoice_graphrag.app \
+  --input examples/modern_invoice_graphrag/sample_invoice_rows.csv \
+  --limit 2 \
+  dry-run
+```
+
 ## Compatibility
 
 The original working environment was:
@@ -95,7 +116,7 @@ The `data_extraction` and `relation_extraction` functions extract the node data 
 
 ### v0.3.x - Reproducible Examples
 
-- Add a minimal end-to-end example that runs from the repository root.
+- Ship a modern Neo4j GraphRAG/vector-search invoice example.
 - Replace hard-coded local paths with configurable arguments.
 - Add smoke tests for Excel extraction and relationship DataFrame generation.
 - Improve issue templates based on new bug reports.

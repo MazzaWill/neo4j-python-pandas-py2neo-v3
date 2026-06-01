@@ -23,6 +23,27 @@
 - 通过 py2neo v3 创建 Neo4j 节点和关系。
 - 将 Neo4j 图数据转换为矩阵，供后续机器学习实验使用。
 
+## 现代 Neo4j 示例
+
+仓库现在新增了一个现代化案例：[`examples/modern_invoice_graphrag/`](examples/modern_invoice_graphrag/)。
+
+它保留原项目的发票数据场景，但使用当前 Neo4j 应用栈：
+
+- 官方 `neo4j` Python driver
+- Neo4j 5+/2026 vector index
+- GraphRAG 风格语义检索
+- 可选 `neo4j-graphrag` 生产级 embedding
+- 本地 deterministic embedding，便于无 API key demo 和 CI
+
+快速体验：
+
+```bash
+python -m examples.modern_invoice_graphrag.app \
+  --input examples/modern_invoice_graphrag/sample_invoice_rows.csv \
+  --limit 2 \
+  dry-run
+```
+
 ## 兼容性
 
 原始可运行环境：
@@ -95,7 +116,7 @@ Excel 数据结构如下：
 
 ### v0.3.x - 可复现示例
 
-- 增加一个从仓库根目录即可运行的最小端到端示例。
+- 发布现代 Neo4j GraphRAG/vector-search 发票案例。
 - 用可配置参数替换硬编码本地路径。
 - 为 Excel 抽取和关系 DataFrame 生成增加 smoke test。
 - 根据后续 issue 继续改进 issue 模板。

@@ -25,6 +25,14 @@ jobs:
             invoice_neo4j.py \
             neo4j_matrix.py \
             neo4j_to_dataframe.py \
+            examples/modern_invoice_graphrag/__init__.py \
+            examples/modern_invoice_graphrag/app.py \
+            examples/modern_invoice_graphrag/cypher.py \
+            examples/modern_invoice_graphrag/embeddings.py \
+            examples/modern_invoice_graphrag/model.py \
             dataToNeo4jClass/DataToNeo4jClass.py \
             jieba_code/jieba_doubt.py \
             jieba_code/jieba_interface.py
+
+      - name: Run modern example unit tests
+        run: python -m unittest discover -s tests/modern_invoice_graphrag -v

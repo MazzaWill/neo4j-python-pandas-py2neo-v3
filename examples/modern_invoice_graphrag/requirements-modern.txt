@@ -1,0 +1,7 @@
+# Modern Neo4j driver path.
+# Neo4j Python Driver 6.x requires Python >=3.10.
+neo4j>=6,<7; python_version >= "3.10"
+
+# Required only when reading Excel files such as ../../Invoice_data_Demo.xls.
+pandas>=2.2,<3
+xlrd>=2,<3

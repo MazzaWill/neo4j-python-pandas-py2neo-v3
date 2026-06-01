@@ -1,0 +1,4 @@
+# Optional production GraphRAG embedding stack.
+# The default example uses deterministic local embeddings so tests and dry-runs
+# do not require an API key.
+neo4j-graphrag[openai]>=1.11,<2

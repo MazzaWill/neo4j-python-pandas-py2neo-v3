@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.3.0 - Modern Neo4j GraphRAG Example
+
+Release date: 2026-06-01
+
+### Added
+
+- Added `examples/modern_invoice_graphrag/`, a modern invoice graph example based on the original Excel dataset idea.
+- Added official Neo4j Python driver integration through a new CLI.
+- Added Neo4j vector index and `db.index.vector.queryNodes` search Cypher.
+- Added deterministic local embeddings for keyless demos and CI.
+- Added optional `neo4j-graphrag[openai]` requirements for production GraphRAG embedding paths.
+- Added English and Simplified Chinese documentation for the modern example.
+- Added offline unit tests for invoice normalization, embeddings, and Cypher.
+
+### Changed
+
+- Linked the modern example from the root English and Chinese README files.
+- Extended maintenance checks to compile and test the modern example.
+
 ## v0.2.2 - README Language Split
 
 Release date: 2026-06-01
