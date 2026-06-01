@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.2 - README Language Split
+
+Release date: 2026-06-01
+
+### Changed
+
+- Reworked `README.md` as the English-first project entry point for international open-source review.
+- Moved the full Simplified Chinese documentation to `README.zh-CN.md`.
+- Added language switch links between English and Simplified Chinese documentation.
+
 ## v0.2.1 - OSS Maintenance Metadata
 
 Release date: 2026-06-01
