@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.1 - Project Positioning Polish
+
+Release date: 2026-06-01
+
+### Changed
+
+- Updated the project display title to `Excel to Neo4j Knowledge Graph` while keeping the historical repository slug unchanged.
+- Reworked the root English and Chinese README introductions to position the project as both a legacy py2neo v3 example and a modern Neo4j GraphRAG/vector-search example.
+- Updated GitHub repository metadata to use the clearer project description.
+
 ## v0.3.0 - Modern Neo4j GraphRAG Example
 
 Release date: 2026-06-01

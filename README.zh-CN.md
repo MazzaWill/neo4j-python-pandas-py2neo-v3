@@ -1,4 +1,4 @@
-# neo4j-python-pandas-py2neo-v3
+# Excel to Neo4j Knowledge Graph
 
 [![Release](https://img.shields.io/github/v/release/MazzaWill/neo4j-python-pandas-py2neo-v3)](https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -6,13 +6,15 @@
 
 [English](README.md) | 简体中文
 
-利用 pandas 从 Excel 中抽取节点与关系数据，并通过 py2neo v3 写入 Neo4j，用三元组方式构建基础知识图谱。
+从 Excel 发票数据构建 Neo4j 知识图谱的示例仓库：既保留原始 py2neo v3 教学路径，也新增了面向当前应用的 Neo4j GraphRAG/vector-search 路径。
+
+历史仓库名：`neo4j-python-pandas-py2neo-v3`。
 
 ![](https://s1.ax1x.com/2018/11/13/iObQkn.png)
 
 ## 维护状态
 
-本项目已于 2026-06 恢复维护。当前维护重点是保留原始 py2neo v3 / Neo4j 3.x 示例项目的可运行性，同时逐步补齐文档、样例数据说明、兼容性说明和历史 issue 分类。
+本项目已于 2026-06 恢复维护。当前维护重点是保留原始 py2neo v3 / Neo4j 3.x 示例项目的可运行性，同时新增官方 Neo4j driver、vector index 和 GraphRAG 示例。
 
 本仓库会继续作为 legacy 教学示例维护。现代 Python、pandas、Neo4j、py2neo 版本可能需要代码改造；相关现代化工作会单独跟踪，避免破坏原有 legacy 基线。
 

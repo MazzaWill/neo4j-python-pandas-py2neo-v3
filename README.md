@@ -1,4 +1,4 @@
-# neo4j-python-pandas-py2neo-v3
+# Excel to Neo4j Knowledge Graph
 
 [![Release](https://img.shields.io/github/v/release/MazzaWill/neo4j-python-pandas-py2neo-v3)](https://github.com/MazzaWill/neo4j-python-pandas-py2neo-v3/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -6,13 +6,15 @@
 
 English | [Simplified Chinese](README.zh-CN.md)
 
-Extract nodes and relationships from Excel with pandas, then load the triples into Neo4j through py2neo v3 to build a basic knowledge graph.
+Excel-to-Neo4j examples for building knowledge graphs: a legacy py2neo v3 path for the original educational project, plus a modern Neo4j GraphRAG/vector-search path for current applications.
+
+Legacy repository slug: `neo4j-python-pandas-py2neo-v3`.
 
 ![](https://s1.ax1x.com/2018/11/13/iObQkn.png)
 
 ## Maintenance Status
 
-This project is maintained again as of 2026-06. The current goal is to keep the original py2neo v3 / Neo4j 3.x example usable for learners, notebooks, and legacy projects while improving documentation, sample data guidance, compatibility notes, and issue triage.
+This project is maintained again as of 2026-06. The current goal is to keep the original py2neo v3 / Neo4j 3.x example usable for learners, notebooks, and legacy projects while adding a current Neo4j driver, vector index, and GraphRAG example.
 
 This repository is intentionally maintained as a legacy educational example. Modern Python, pandas, Neo4j, and py2neo versions may require code changes; modernization work is tracked separately so the legacy baseline remains clear.
 
