@@ -26,7 +26,7 @@ prompt-toolkit==1.0.15
 py==1.7.0
 py2neo==3
 Pygments==2.2.0
-pytest==3.9.3
+pytest==9.0.3
 python-dateutil==2.7.5
 pytz==2018.6
 pyzmq==17.1.2
