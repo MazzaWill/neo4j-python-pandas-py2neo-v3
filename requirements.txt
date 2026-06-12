@@ -31,7 +31,7 @@ python-dateutil==2.7.5
 pytz==2018.6
 pyzmq==17.1.2
 six==1.11.0
-tornado==5.1.1
+tornado==6.5.6
 traitlets==4.3.2
 urllib3==1.24
 wcwidth==0.1.7
